@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Pagewaiter
-tagline:          'The Frontend Develpment Blog and Portfolio of Jason Mosley'
-description:      ''
+tagline:          'Frontend Develpment by Jason Mosley'
+description:      'The Frontend Develpment Blog and Portfolio of Jason Mosley'
 url:              http://pagewaiter.github.io
 baseurl:          /
 
