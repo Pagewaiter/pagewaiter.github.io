@@ -144,11 +144,11 @@ a.sidebar-nav-item:focus {
 }
 
 /*
- * Post Style
+ * Post/Page Style
  *
  * Makes each posts look like its on paper
  */
-.post {
+.post, .page {
     position: relative;
     padding: 1rem;
     background-color: #fff;
@@ -157,7 +157,7 @@ a.sidebar-nav-item:focus {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
-.post:before, .post:after
+.post:before, .post:after, .page:before, .page:after
 {
 	position: absolute;
 	width: 40%;
@@ -177,7 +177,7 @@ a.sidebar-nav-item:focus {
 	z-index: -1;
 } 
 
-.post:after
+.post:after, .page:after
 {
 	left: auto;
 	right: 12px;
