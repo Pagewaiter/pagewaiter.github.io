@@ -1,0 +1,16 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div class="posts">
+  {% for project in site.portfolio %}
+  <div class="post">
+    <h1 class="post-title">
+      {{ project.title }}
+    </h1>
+
+    {{ project.content }}
+  </div>
+  {% endfor %}
+</div>

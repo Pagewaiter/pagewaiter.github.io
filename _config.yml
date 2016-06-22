@@ -18,6 +18,9 @@ author:
 
 paginate:         5
 
+collections:
+  - portfolio
+
 # Custom vars
 version:          2.1.0
 
